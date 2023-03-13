@@ -29,5 +29,10 @@ namespace WpfApp1
         {
          
         }
+
+        private void btnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "Hello World!";
+        }
     }
 }
